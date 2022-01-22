@@ -180,8 +180,7 @@ margin:0em;
 
 padding-top:0;
 margin-bottom:0;
-display:flex;
-justify-content: space-between;
+
 	
 	
 }
@@ -321,7 +320,20 @@ padding:0;
 
 
 
+
+
+
+
+
 @media screen and (min-width: 700px) {
+
+
+
+
+
+
+
+
 
 body{
 	
@@ -345,8 +357,7 @@ padding-left:3em;
 p {
 text-align: left;
 width: 90%;
- float:none;
- clear:both;
+ 
 
 
 }
@@ -370,6 +381,7 @@ margin:0;
 padding-top:2em;
 padding-bottom:.2em;
 color: #21abcd;
+text-align:left;
 
 }
 
@@ -427,7 +439,7 @@ padding:0;
 margin-bottom:2.2em;
 }
 
-.outer{
+.most-outer{
 width: 90%
 
 display:flex;
@@ -452,14 +464,18 @@ padding:0em;
 
 .textz{
 	
-	display:block;
-	order:1;
+	
 	
 	}
+
+
+.text{
+
+
+
+}
+
 .lhandrect{
-
-
-
 display: flex;
 flex-direction: row;
 
@@ -479,7 +495,8 @@ border-style: solid;
 border-width: 2px;
 margin-bottom: 2em;
 padding-left:0;
-padding-right:20em;
+padding-right:2em;
+width:100%;
 
 
 
@@ -492,7 +509,7 @@ border-width: 2px;
 margin-bottom: 0em;
 margin-right: 18em;
 margin-right: 18em;
-width:100;
+width:60%;
 max-width: 270;
 vertical-align: middle;
 
@@ -518,13 +535,14 @@ float:left;
 	
 }
 .outerlefthandside{
-display: flex;
-flex-direction:column;	
+
 }
 
 .date{
 margin:0em;
 padding:0em;
+text-align:left;
+
 
 }
 
