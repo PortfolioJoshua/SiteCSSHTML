@@ -62,10 +62,20 @@ padding:0;
 
 }
 
+h2{
+
+
+}
+
+h3{
+	
+}
+
 h4 {
 margin:0;
 padding-bottom:2em;
 padding-top:2em;
+color:blue;
 }
 
 
@@ -254,6 +264,8 @@ margin-bottom:1em;
 .blue_bold_link{
 color: blue;
 margin-bottom:2em;
+font-weight:bolder;
+
 }
 
 .header_container{
