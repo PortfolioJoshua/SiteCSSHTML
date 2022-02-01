@@ -27,7 +27,7 @@ body {
 
 
 width:95%;
-margin:0;
+
 margin: 0 auto;
 
 
@@ -460,18 +460,27 @@ color: #21abcd;
 
 }
 
-
-a {
-  text-decoration: none;
+a{
+text-decoration: underline;
 }
 
+a:link{
+text-decoration: underline;
+}
 a:hover{
-color:blue;
+text-decoration: underline;
 }
+
+a:active {
+	text-decoration: underline;
+}
+
+
+
 
 nav li{
 margin-top: .39em;
-margin-right:1em;
+margin-left:10em;
 padding: 0em;
 margin-left:.05em;
 }
@@ -479,9 +488,10 @@ margin-left:.05em;
 
 nav ul {
 list-style: none;
-padding: 0;
+margin-left:10;
+padding-left:11em;
 display:flex;
-justify-content:center;
+justify-content:flex-end;
 
 }
 
@@ -504,6 +514,10 @@ border-bottom: 1px solid #707070;
 
 
 
+.title{
+
+margin-left:1.9em;
+}
 
 .site-title{
 margin-bottom:0em;
@@ -547,6 +561,10 @@ padding:2em;
 margin:0em;
 padding:0em;
 
+}
+
+.main_paragraph_link{
+text-decoration: underline;
 }
 .textz{
 	
