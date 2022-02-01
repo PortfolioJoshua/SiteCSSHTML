@@ -26,11 +26,12 @@ width:100%;
 body {
 
 
-width:90%;
+width:95%;
 margin:0;
-margin-left:5%;
-margin-right:5%;
-max-width:1920px;
+margin: 0 auto;
+
+
+max-width:1100px;
 }
 
 header{
@@ -157,7 +158,7 @@ text-align:center;
 }
 
 .most_outer{
-width: 90%
+width: 90%;
 margin: 0 auto;
 
 
@@ -165,10 +166,12 @@ margin: 0 auto;
 
 .entire_section{
 
+	margin-left:3%;
+
 }
 
 .titleimage{
-width:100%;
+width:95%;
 height:20%;
 background-image: url("./images/work.jpg");
 background-position: bottom;
@@ -305,7 +308,7 @@ margin-right:0%;
 }
 
 .asidehigher{
-
+width:30%;
 border-color: #d7d7d7;
 border-style: solid;
 border-width: 10px;
@@ -324,12 +327,14 @@ border-style: solid;
 border-width: 10px;
 margin-left:0m;
 text-align:center;
-padding-bottom:2em;
+padding-bottom:3em;
 
 margin:0;
 margin-bottom:3em;
 }
 
+
+/*
 .asidetext{
 padding:0em;
 margin:0em;
@@ -340,15 +345,23 @@ margin-top:1em;
 text-align:left;
 width:90%;
 float:left;
-padding-bottom:2em;
+padding-bottom:em;
 font-family: 'Lora', serif;
-color:#707070;
+color:#143774;
 display:block;
-
-
-
 }
+*/
 
+.asidetext{
+	padding:0em;
+	margin:.2em;
+	margin-top:.10;
+	margin-bottom:2em;
+	align.text:left;
+	}
+
+
+	/*
 .asideheading{
 
 text-align: left;
@@ -356,7 +369,7 @@ padding-left:2.5em;
 font-size: 18;
 font-family: 'Ubuntu', sans-serif;
 color:#143774;
-
+*/
 
 }
 
@@ -364,7 +377,7 @@ color:#143774;
 margin:0em;
 padding:0em;
 text-align:left;
-width:90%;
+width:30%;
 
 
 }
@@ -399,20 +412,20 @@ padding:0;
 
 body{
 	
-margin:0;
-width:100%;
-margin:2em;
 
+width:95%;
+max-width: 1100px;
+margin: 0 auto;
 
 }
 
 
 
 header{
-width:auto;
-background-color:rgb(117,217,214);
+width:100%;
+background-color:#ffffff;
 margin-bottom:3em;
-padding-left:3em;
+
 
 }
 
@@ -425,7 +438,7 @@ width: 90%;
 }
 
 h1{
-margin-bottom = 0em;
+margin-bottom:0em;
 color: blue;
 margin-top:0em;
 
@@ -443,7 +456,7 @@ margin:0;
 padding-top:2em;
 padding-bottom:.2em;
 color: #21abcd;
-text-align:left;
+
 
 }
 
@@ -502,31 +515,37 @@ margin-bottom:2.2em;
 }
 
 .most-outer{
-width: 90%
 
+margin: 0 auto;
 display:flex;
 flex-direction: column;
 
 }
 
 .entire_section{
+
+	width: 80%;
+	height:40%;
 display: flex;
 }
 
 .titleimage{
-width:95%;
-height:20%;
+
+	width:95%;
+height:40%;
+
 background-image: url("./images/work.jpg");
 background-position: bottom;
 background-repeat: no-repeat;
 background-size:cover;
-margin:0em;
-padding:0em;
+margin:0;
+padding:2em;
+
 }
 
 .main-heading{
-margin:2em;
-padding:2em;
+margin:0em;
+padding:0em;
 
 }
 .textz{
@@ -538,6 +557,7 @@ padding:2em;
 
 .text{
 
+float:left;
 
 
 }
@@ -547,7 +567,7 @@ display: flex;
 flex-direction: row;
 
 border-width: 2px;
-margin-bottom: 2em;
+margin-bottom: 0em;
 padding:0em;
 margin:0em;
 
@@ -562,8 +582,8 @@ border-style: solid;
 border-width: 2px;
 margin-bottom: 2em;
 padding-left:0;
-padding-right:2em;
-width:100%;
+padding-right:0em;
+
 
 
 
@@ -572,20 +592,23 @@ width:100%;
 .smallimage{
 
 
-border-width: 2px;
 margin-bottom: 0em;
 margin-right: 18em;
-margin-right: 18em;
+
 width:100%;
-max-width: 280;
+max-width: 270;
 vertical-align: middle;
 
 }
 
+/*
 .smallerimage{
+	margin:0;
+	padding:0;
 float:left;	
-	
+width:90%;	
 }
+*/
 
 .article-title{
 	
@@ -622,41 +645,68 @@ margin-bottom:2em;
 
 .header_container{
 display:flex;
-width: 90%
+width: 90%;
 margin: 0 auto;
 justify-content: space-between;
 }
 
 .rhanded_boxes{
 
+margin-left:4em;
 margin:0;
-
-margin:0;width:100%;
+width:100%;
 padding:0;
 align-content: stretch;
 
 }
 
+
+/*
 .asidehigher{
-width:50%;
+width:100%;
 border-color: #d7d7d7;
 border-style: solid;
 border-width: 10px;
 margin-bottom: 2em;
-margin-left: 3em;
-text-align:center;
+float:left;
+
+
+
+
 padding:0;
-display: block;
+
+padding-left:0;
+
+margin-left:0;
+float:left;
 }
+*/
+
+.asidehigher{
+	width:100%;
+	border-color: #d7d7d7;
+	border-style: solid;
+	border-width: 10px;
+	margin-bottom: 2em;
+	margin-left: 0em;
+	text-align:center;
+	padding:2em;
+	display: block;
+	margin-left:3em;
+	}
+
 
 .asidelower{
-width:50%;
+width:100%;
 border-color:#d7d7d7;
 border-style: solid;
 border-width: 10px;
-margin-left:3em;
+margin-left:.1em;
 text-align:center;
 display:block;
+float:left;
+padding:2em;
+margin-left:3em;
 }
 
 .asidetext{
@@ -664,14 +714,16 @@ padding:0em;
 margin:.2em;
 margin-top:.10;
 margin-bottom:2em;
-align.text:left;
+text-align:center;
 }
 
 .smallimagelower{
 margin:0em;
 padding:0em;
 text-align:left;
-width:90%;
+width:100%;
+
+
 }
 
 
