@@ -91,7 +91,7 @@ color:#143774;
 
 h5{
 margin:0;
-text-align:right;
+
 color: #21abcd;
 
 }
@@ -114,22 +114,26 @@ color:blue;
 }
 
 nav li{
+	
 margin-top: .39em;
-margin-right:1em;
+
 padding: 0em;
-margin-left:.05em;
+margin-left:4.0em;
+margin-right:0em;
 }
 
 
 nav ul {
+	
 list-style: none;
 padding: 0;
-margin-right: 6em;
+margin-right: 10em;
 margin-left:4em;
 
 }
 
 nav a {
+	
     text-decoration: none;
     color: #707070;
     font-weight: 700;
@@ -192,7 +196,7 @@ margin-bottom:0em;
 
 
 
-border-width: 2px;
+border-width: 0px;
 margin-bottom: 1em;
 padding:0em;
 margin:0em;
@@ -230,7 +234,7 @@ margin-bottom:0;
 
 
 
-margin-bottom: 0em;
+margin-bottom: 1em;
 margin-right: auto;
 margin-left: auto;
 width:100%;
@@ -308,7 +312,7 @@ margin-right:0%;
 }
 
 .asidehigher{
-width:30%;
+
 border-color: #d7d7d7;
 border-style: solid;
 border-width: 10px;
@@ -334,7 +338,7 @@ margin-bottom:3em;
 }
 
 
-/*
+
 .asidetext{
 padding:0em;
 margin:0em;
@@ -345,13 +349,13 @@ margin-top:1em;
 text-align:left;
 width:90%;
 float:left;
-padding-bottom:em;
+padding-bottom:1em;
 font-family: 'Lora', serif;
 color:#143774;
 display:block;
 }
-*/
 
+/*
 .asidetext{
 	padding:0em;
 	margin:.2em;
@@ -359,9 +363,9 @@ display:block;
 	margin-bottom:2em;
 	align.text:left;
 	}
+*/
 
-
-	/*
+	
 .asideheading{
 
 text-align: left;
@@ -369,7 +373,7 @@ padding-left:2.5em;
 font-size: 18;
 font-family: 'Ubuntu', sans-serif;
 color:#143774;
-*/
+
 
 }
 
@@ -377,24 +381,29 @@ color:#143774;
 margin:0em;
 padding:0em;
 text-align:left;
-width:30%;
+width:60%;
 
 
 }
 
-footer{
-width:100%;
-text-align: center;
-background-color:rgb(217,217,214);
-margin:0;
-padding:0;
 
+
+
+
+.footer{
+
+	visibility: hidden;
 }
 
+.otherfooter{
 
+	visibility: visible;
 
-
-
+	
+	text-align:center;
+	padding-bottom:3em;
+	padding-top:3em;
+}
 
 
 
@@ -404,44 +413,34 @@ padding:0;
 
 
 
-
+	
 
 
 
 
 
 body{
-	
-
 width:95%;
 max-width: 1100px;
 margin: 0 auto;
-
 }
-
 
 
 header{
 width:100%;
 background-color:#ffffff;
 margin-bottom:3em;
-
-
 }
 
 p {
 text-align: left;
 width: 90%;
- 
-
-
+font-size:1em;
 }
 
 h1{
 margin-bottom:0em;
 color: blue;
-margin-top:0em;
-
 }
 
 h4 {
@@ -455,7 +454,9 @@ h5{
 margin:0;
 padding-top:2em;
 padding-bottom:.2em;
+padding:0;
 color: #21abcd;
+margin-top:1em;
 
 
 }
@@ -491,7 +492,8 @@ list-style: none;
 margin-left:10;
 padding-left:11em;
 display:flex;
-justify-content:flex-end;
+
+margin-right:0;
 
 }
 
@@ -516,7 +518,7 @@ border-bottom: 1px solid #707070;
 
 .title{
 
-margin-left:1.9em;
+margin-left:1.8em;
 }
 
 .site-title{
@@ -525,7 +527,7 @@ margin-bottom:0em;
 .subtitle{
 margin-top: 0em;
 padding:0;
-margin-bottom:2.2em;
+margin-bottom:2.3em;
 }
 
 .most-outer{
@@ -584,7 +586,7 @@ float:left;
 display: flex;
 flex-direction: row;
 
-border-width: 2px;
+border-width: 0px;
 margin-bottom: 0em;
 padding:0em;
 margin:0em;
@@ -594,10 +596,6 @@ margin:0em;
 }
 
 .lhandtext{
-
-border-color: green;
-border-style: solid;
-border-width: 2px;
 margin-bottom: 2em;
 padding-left:0;
 padding-right:0em;
@@ -615,7 +613,8 @@ margin-right: 18em;
 
 width:100%;
 max-width: 270;
-vertical-align: middle;
+
+vertical-align: top;
 
 }
 
@@ -629,29 +628,18 @@ width:90%;
 */
 
 .article-title{
-	
-	
-	
-}
-.text{
-	
-
-	
-}
-.textz{
-	
-	
-}
-.outerlefthandside{
 
 }
 
 .date{
-margin-bottom:1em;
+
+
 
 text-align:left;
-
-
+margin:0em;
+padding:0em;
+margin-top:.7em;
+margin-bottom:.7em;
 }
 
 
@@ -659,6 +647,7 @@ text-align:left;
 .blue_bold_link{
 color: blue;
 margin-bottom:2em;
+margin-top:2em;
 }
 
 .header_container{
@@ -740,15 +729,31 @@ margin:0em;
 padding:0em;
 text-align:left;
 width:100%;
+margin-bottom:.5em;
 
 
 }
 
+.footer{
+	visibility: visible;
+	margin-right: -92%;
+	text-align:center;
+	padding-bottom:3em;
+	padding-top:3em;
+}
 
-footer{
+.otherfooter{
+
+	visibility:hidden;
+
+}
+
+
+/*footer{
 width:10%
 text-align: center;
 background-color:rgb(217,217,214);
 
 }
+*/
 }
