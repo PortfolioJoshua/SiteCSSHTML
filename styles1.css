@@ -292,7 +292,7 @@ border-bottom: 1px solid #707070;
 }
 
 .title{
-margin-left:.1em;
+text-align: left;
 }
 
 .site-title{
@@ -301,6 +301,7 @@ margin-left:.1em;
 }
 
 .subtitle{
+    text-align: center;
     
 }
 
@@ -313,12 +314,14 @@ display: flex;
 }
 
 .titleimage{
-height:40%;
+    width:90%;
+height:30%;
 background-image: url("./images/work.jpg");
 background-position: bottom;
 background-repeat: no-repeat;
 background-size:cover;
-padding:2em;
+padding-right:0;
+margin-right:0;
 border: 1px solid magenta;
 }
 
@@ -370,36 +373,39 @@ margin-top:2em;
 flex-direction: row;
 width: 90%;
 justify-content: space-between;
-padding-left:1em;
+padding-left:0em;
 
 margin-left:60;
+
 
 
 }
 
 .rhanded_boxes{
-margin-left:4em;
+margin-left:0em;
 width:100%;
 }
 
 .asidehigher{
-width:55%;
+width:50%;
 border-color: #d7d7d7;
 border-style: solid;
 border-width: 10px;
 padding:2em;
-margin-left:0em;
+margin-right:5em;
+
 
 }
 
 .asidelower{
-width:55%;
+width:50%;
 border-color:#d7d7d7;
 border-style: solid;
 border-width: 10px;
 
 padding:2em;
 margin-left:0em;
+margin-right:5em;
 }
 
 .asidetext{
