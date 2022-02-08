@@ -270,7 +270,7 @@ nav ul {
 list-style: none;
 display:flex;
 flex-direction: row;
-margin-right:1.1em;
+margin-right:0em;
 justify-content: center;
 
 }
