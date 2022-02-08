@@ -211,8 +211,9 @@ padding-bottom:3em;
 
 body{
 width:100%;
-max-width: 1110px;
-margin: 0 auto;
+max-width: 1150px;
+
+margin-right:-1em;
 
 border: 1px solid magenta;
 
@@ -261,7 +262,7 @@ nav{
 }
 
 nav li{
-margin-left:2.05em;
+margin-left:2.0em;
 
 }
 
@@ -269,7 +270,7 @@ nav ul {
 list-style: none;
 display:flex;
 flex-direction: row;
-margin-right:2.8em;
+margin-right:1.1em;
 justify-content: center;
 
 }
