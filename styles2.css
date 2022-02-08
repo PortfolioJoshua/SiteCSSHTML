@@ -1,0 +1,31 @@
+Body{
+	width:90%;
+	margin: 0 auto;
+	
+
+}
+
+.header_container{
+	width:100%;
+	
+	margin-left:auto;
+	margin-right:auto;
+	display:flex;
+	
+	flex-direction: row;
+	margin: 0 auto;
+	align-content: flex-end;
+}
+
+.test1{
+
+	min-width:100;
+	max-width:600;
+	width:100%;
+}
+
+.test2{
+
+	direction:rtl;
+	width:100%;
+}

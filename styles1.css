@@ -1,6 +1,7 @@
 body{
-width:95%;
+width:100%;
 max-width:1100px;
+
 }
 
 header{
@@ -80,6 +81,8 @@ border-bottom: 1px solid #707070;
 }
 
 .site-title{
+    
+    
 }
 
 .subtitle{
@@ -149,8 +152,7 @@ font-weight:bold;
 font-family: 'Ubuntu', sans-serif;
 }
 
-.header_container{
-}
+
 
 .rhanded_boxes{
 }
@@ -201,16 +203,17 @@ padding-bottom:3em;
 }
 
 
-
+/*desktop*/
 @media screen and (min-width: 960px) {
 
 
 
 
 body{
-width:95%;
-max-width: 1100px;
-margin: 0 auto;
+width:100%;
+max-width: 1400px;
+
+
 }
 
 header{
@@ -257,6 +260,7 @@ nav{
 
 nav li{
 margin-left:2.05em;
+
 }
 
 nav ul {
@@ -264,6 +268,8 @@ list-style: none;
 display:flex;
 flex-direction: row;
 margin-right:3em;
+justify-content: center;
+
 }
 
 nav a {
@@ -287,9 +293,12 @@ margin-left:2em;
 }
 
 .site-title{
+    
+    
 }
 
 .subtitle{
+    
 }
 
 .most-outer{
@@ -351,10 +360,16 @@ margin-top:2em;
 }
 
 .header_container{
-display:flex;
-width: 90%;
-margin: 0 auto;
+    background-color:solid magenta;
+    border: 1px solid magenta;
+    display:flex;
+flex-direction: row;
+width: 100%;
 justify-content: space-between;
+margin: 0 auto;
+text-align:center;
+
+
 }
 
 .rhanded_boxes{
