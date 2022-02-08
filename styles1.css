@@ -182,8 +182,8 @@ width:90%;
 }
 
 .asideheading{
-text-align: left;
-padding-left:2.5em;
+text-align: center;
+
 font-family: 'Ubuntu', sans-serif;
 color:#143774;
 }
@@ -211,8 +211,10 @@ padding-bottom:3em;
 
 body{
 width:100%;
-max-width: 1400px;
+max-width: 1110px;
+margin: 0 auto;
 
+border: 1px solid magenta;
 
 }
 
@@ -267,7 +269,7 @@ nav ul {
 list-style: none;
 display:flex;
 flex-direction: row;
-margin-right:3em;
+margin-right:2.8em;
 justify-content: center;
 
 }
@@ -289,7 +291,7 @@ border-bottom: 1px solid #707070;
 }
 
 .title{
-margin-left:2em;
+margin-left:.1em;
 }
 
 .site-title{
@@ -316,6 +318,7 @@ background-position: bottom;
 background-repeat: no-repeat;
 background-size:cover;
 padding:2em;
+border: 1px solid magenta;
 }
 
 .main-heading{
@@ -364,10 +367,11 @@ margin-top:2em;
     border: 1px solid magenta;
     display:flex;
 flex-direction: row;
-width: 100%;
+width: 90%;
 justify-content: space-between;
-margin: 0 auto;
-text-align:center;
+padding-left:1em;
+
+margin-left:60;
 
 
 }
@@ -378,22 +382,23 @@ width:100%;
 }
 
 .asidehigher{
-width:100%;
+width:55%;
 border-color: #d7d7d7;
 border-style: solid;
 border-width: 10px;
 padding:2em;
-margin-left:3em;
+margin-left:0em;
+
 }
 
 .asidelower{
-width:100%;
+width:55%;
 border-color:#d7d7d7;
 border-style: solid;
 border-width: 10px;
-margin-left:.1em;
+
 padding:2em;
-margin-left:3em;
+margin-left:0em;
 }
 
 .asidetext{
