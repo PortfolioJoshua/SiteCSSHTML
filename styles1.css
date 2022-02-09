@@ -215,14 +215,15 @@ max-width: 1320px;
 margin: 0 auto;
 
 
-border: 1px solid magenta;
+
 
 }
 
 header{
-width:100%;
-background-color:#ffffff;
+width:83.5%;
+background-color:#add8e6;
 margin-bottom:3em;
+margin-left:6.5em;
 }
 
 p {
@@ -297,13 +298,14 @@ text-align: left;
 
 .site-title{
     
-    
+    font-weight: bolder;
 }
 
 .subtitle{
     text-align: center;
     margin-top:-1.8em;
-    
+    color: #707070;
+    font-weight:900;
 }
 
 .most-outer{
@@ -323,11 +325,11 @@ background-repeat: no-repeat;
 background-size:cover;
 padding-right:0;
 margin-right:0;
-border: 1px solid magenta;
+
 }
 
 .main-heading{
-    font-weight:bolder;
+    font-weight:normal;
     margin-top:-.5em;
 }
 
@@ -382,9 +384,7 @@ margin-top:2em;
 }
 
 .header_container{
-    background-color:solid magenta;
-    border: 1px solid magenta;
-    display:flex;
+display:flex;
 flex-direction: row;
 width: 90%;
 justify-content: space-between;
@@ -434,8 +434,9 @@ margin-bottom:.5em;
 }
 
 .footer{
+background-color:#add8e6;
+width:125%;
 visibility: visible;
-
 text-align:center;
 padding-bottom:3em;
 padding-top:3em;
