@@ -30,7 +30,7 @@ font-family: 'Lora', serif;
 h2{
 font-weight:300;
 font-family: 'Lora', serif;
-color:#143774;
+color:blue;
 }
 
 h3{
@@ -39,7 +39,7 @@ h3{
 h4 {
 padding-bottom:2em;
 padding-top:2em;
-color:#143774;
+
 }
 
 h5{
@@ -213,7 +213,7 @@ body{
 width:100%;
 max-width: 1320px;
 margin: 0 auto;
-margin-right:-1em;
+
 
 border: 1px solid magenta;
 
@@ -302,6 +302,7 @@ text-align: left;
 
 .subtitle{
     text-align: center;
+    margin-top:-1.8em;
     
 }
 
@@ -326,6 +327,8 @@ border: 1px solid magenta;
 }
 
 .main-heading{
+    font-weight:bolder;
+    margin-top:-.5em;
 }
 
 .main_paragraph_link{
@@ -351,17 +354,29 @@ margin-bottom: 2em;
 margin-right: 18em;
 width:100%;
 max-width: 270;
+margin-bottom:0em;
+
+
 }
 
 .article-title{
+    padding-top:.6em;
 }
 
+.first-date{
+    margin-top:.4em;
+    margin-bottom:3em;
+    padding-bottom:3em;
+}
 .date{
-margin-top:.7em;
+    margin-top:-1em;
+    margin-bottom:3em;
+    padding-bottom:3em;
+
 }
 
 .blue_bold_link{
-color: blue;
+color: #21abcd;
 margin-bottom:2em;
 margin-top:2em;
 }
