@@ -101,12 +101,16 @@ margin-left:3%;
 
 .titleimage{
 width:95%;
-height:20%;
+
+/*height:50%;
+
 background-image: url("./images/work.jpg");
 background-position: bottom;
 background-repeat: no-repeat;
 background-size:cover;
+
 padding-bottom:200;
+*/
 }
 
 .lhandrect{
@@ -133,6 +137,7 @@ width:100%;
 }
 
 .article-title{
+    margin-top: 1.75em;
 }
 
 .title{
@@ -177,7 +182,7 @@ margin-bottom:3em;
 
 .asidetext{
 margin-left:5%;
-text-align:left;
+text-align:center;
 width:90%;
 }
 
@@ -202,6 +207,30 @@ text-align:center;
 padding-bottom:3em;
 }
 
+@media print {
+    .titleimage {
+        
+       width: 25%;
+       height: 25%;
+       display: block;
+       margin-left: auto;
+       margin-right: auto;
+    }
+    .smallimage{
+        width: 25%;
+        height: 25%;
+        display: block;
+        margin-left: auto;
+        margin-right: auto;    
+    }
+    .smallimagelower{
+        width: 25%;
+        height: 25%;
+        display: block;
+        margin-left: auto;
+        margin-right: auto; 
+    }
+}
 
 /*desktop*/
 @media screen and (min-width: 960px) {
@@ -318,11 +347,14 @@ display: flex;
 
 .titleimage{
     width:90%;
-height:30%;
+
+    height:50%;
+/*
 background-image: url("./images/work.jpg");
 background-position: bottom;
 background-repeat: no-repeat;
 background-size:cover;
+*/
 padding-right:0;
 margin-right:0;
 
@@ -361,10 +393,13 @@ order: 2;
 
 
 .smallimage{
+
 margin-right: 18em;
 width:100%;
 max-width: 270;
 margin-bottom:0em;
+
+
 
 
 }
@@ -454,3 +489,7 @@ padding-top:3em;
 visibility:hidden;
 }
 
+
+
+
+ 
